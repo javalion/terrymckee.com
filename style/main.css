@@ -1,0 +1,50 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: ghostwhite;
+    height: 100%;
+}
+
+main {
+    height: 100%;
+}
+
+main > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+div.hi {
+    border-top: 3px dotted #000;
+    padding-top: 13px;
+}
+
+div.name {
+    font-size: 4rem;
+    color: #12124c;
+    border-bottom: 3px dotted #000;
+    padding-bottom: 13px;
+}
+
+i.fa-linkedin {
+    color: #0273AF;
+}
+
+i.fa-twitter-square {
+    color: #329CEB;
+}
+
+i.fa-github-square {
+    color: #000;
+}
