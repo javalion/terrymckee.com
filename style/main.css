@@ -30,11 +30,13 @@ div.hi {
     padding-top: 13px;
 }
 
-div.name {
+span.name {
     font-size: 4rem;
     color: #12124c;
     border-bottom: 3px dotted #000;
     padding-bottom: 13px;
+    margin-bottom: 14px;
+    display: block;
 }
 
 i.fa-linkedin {
