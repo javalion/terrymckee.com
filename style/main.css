@@ -3,7 +3,8 @@ html {
 }
 
 body {
-    background: ghostwhite;
+    background: #23252A;
+    color: #FFF;
     height: 100%;
 }
 
@@ -28,15 +29,21 @@ main > div {
 div.hi {
     border-top: 3px dotted #000;
     padding-top: 13px;
+    border-bottom: 3px dotted #000;
+    padding-bottom: 13px;
+    margin-bottom: 14px;
 }
 
 span.name {
     font-size: 4rem;
-    color: #12124c;
-    border-bottom: 3px dotted #000;
-    padding-bottom: 13px;
-    margin-bottom: 14px;
+    color: #65CDA3;
     display: block;
+}
+
+div.subhead {
+    padding-top: 10px;
+    font-size: 1rem;
+    color: #666;
 }
 
 i.fa-linkedin {
