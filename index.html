@@ -5,117 +5,70 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terry McKee - Technical Leader</title>
-    <style>
-        body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            color: #333;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 30px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1, h2, h3 {
-            color: #0073e6;
-            margin-bottom: 10px;
-        }
-
-        p {
-            margin: 10px 0;
-        }
-
-        .contact a {
-            color: #0073e6;
-            text-decoration: none;
-        }
-
-        .contact a:hover {
-            text-decoration: underline;
-        }
-
-        ul {
-            padding: 0;
-            list-style: none;
-        }
-
-        ul li {
-            margin: 8px 0;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #666;
-        }
-    </style>
+    <link rel="stylesheet" href="style/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<div class="container">
-    <header>
-        <h1>Hi, I'm Terry McKee</h1>
-        <p>Welcome! I'm a passionate technical leader with a knack for crafting elegant solutions to complex problems. Whether it's designing software architectures, mentoring future engineers, or diving into the latest cloud tech, I thrive on making an impact.</p>
-    </header>
+    <div class="container">
+        <header class="header">
+            <h1>Hi, I'm <span class="highlight">Terry McKee</span></h1>
+            <p class="intro">Welcome! I'm a passionate technical leader with a knack for crafting elegant solutions to complex problems. Whether it's designing software architectures, mentoring future engineers, or diving into the latest cloud tech, I thrive on making an impact.</p>
+        </header>
 
-    <section class="contact section">
-        <h2>Let’s Connect</h2>
-        <p>Have a question or want to collaborate? Reach out!</p>
-        <p>Email: <a href="mailto:javalion@hotmail.com">javalion@hotmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/terryrmckee" target="_blank">terryrmckee</a></p>
-    </section>
+        <section class="contact section">
+            <h2>Let’s Connect</h2>
+            <p>Have a question or want to collaborate? Reach out!</p>
+            <p>Email: <a href="mailto:javalion@hotmail.com">javalion@hotmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/terryrmckee" target="_blank">terryrmckee</a></p>
+        </section>
 
-    <section class="about section">
-        <h2>About Me</h2>
-        <p>Based in Chicago, Illinois, I’ve spent over 20 years honing my skills in back-end engineering, cloud computing, and software design. My career has taken me through exciting roles—from reimagining legacy systems to mentoring the next generation of tech leaders.</p>
-    </section>
+        <section class="about section">
+            <h2>About Me</h2>
+            <p>Based in Chicago, Illinois, I’ve spent over 20 years honing my skills in back-end engineering, cloud computing, and software design. My career has taken me through exciting roles—from reimagining legacy systems to mentoring the next generation of tech leaders.</p>
+        </section>
 
-    <section class="skills section">
-        <h2>What I Bring to the Table</h2>
-        <ul>
-            <li><strong>Cloud Expertise:</strong> AWS Certified and experienced in scalable cloud solutions.</li>
-            <li><strong>Technical Leadership:</strong> Building teams, mentoring engineers, and creating design strategies.</li>
-            <li><strong>Development Mastery:</strong> Proficient in Java and React with a focus on clean, maintainable code.</li>
-        </ul>
-    </section>
+        <section class="skills section">
+            <h2>What I Bring to the Table</h2>
+            <ul>
+                <li><strong>Cloud Expertise:</strong> AWS Certified and experienced in scalable cloud solutions.</li>
+                <li><strong>Technical Leadership:</strong> Building teams, mentoring engineers, and creating design strategies.</li>
+                <li><strong>Development Mastery:</strong> Proficient in Java and React with a focus on clean, maintainable code.</li>
+            </ul>
+        </section>
 
-    <section class="experience section">
-        <h2>What I’ve Done</h2>
-        <p><strong>Lead Software Engineer at Capital One</strong> (2022 - Present)</p>
-        <p>At Capital One, as a technical lead, I lead a team  in delivering innovative solutions while mentoring engineers and guiding complex projects.</p>
+        <section class="experience section">
+            <h2>What I’ve Done</h2>
+            <div class="experience-item">
+                <h3>Lead Software Engineer at Capital One</h3>
+                <p>(2022 - Present)</p>
+                <p>At Capital One, as a technical lead, I lead a team in delivering innovative solutions while mentoring engineers and guiding complex projects.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Technical Specialist at CME Group</h3>
+                <p>(2011 - 2022)</p>
+                <p>Here, I redesigned legacy systems, introduced modern tech stacks, and created scalable, high-performance applications that solved tough challenges.</p>
+            </div>
+            <div class="experience-item">
+                <h3>Senior Java Architect at NAVTEQ</h3>
+                <p>(2006 - 2011)</p>
+                <p>I helped bring agility to software development while leading the design of navigation and mapping tools used globally.</p>
+            </div>
+        </section>
 
-        <p><strong>Technical Specialist at CME Group</strong> (2011 - 2022)</p>
-        <p>Here, I redesigned legacy systems, introduced modern tech stacks, and created scalable, high-performance applications that solved tough challenges.</p>
+        <section class="certifications section">
+            <h2>Certifications</h2>
+            <ul>
+                <li>AWS Certified Solutions Architect – Associate</li>
+                <li>AWS Certified Developer – Associate</li>
+                <li>Google Cloud Digital Leader</li>
+            </ul>
+        </section>
 
-        <p><strong>Senior Java Architect at NAVTEQ</strong> (2006 - 2011)</p>
-        <p>I helped bring agility to software development while leading the design of navigation and mapping tools used globally.</p>
-    </section>
-
-    <section class="certifications section">
-        <h2>Certifications</h2>
-        <ul>
-            <li>AWS Certified Solutions Architect – Associate</li>
-            <li>AWS Certified Developer – Associate</li>
-            <li>Google Cloud Digital Leader</li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Terry McKee | Always Learning, Always Innovating</p>
-    </footer>
-</div>
+        <footer class="footer">
+            <p>&copy; 2024 Terry McKee | Always Learning, Always Innovating</p>
+        </footer>
+    </div>
 </body>
 
 </html>
